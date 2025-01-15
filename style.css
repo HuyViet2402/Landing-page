@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    background: #1f2937;
+    display: flex;
+}
+
+.Opener {
+    background: #1f2937;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 200px;
+    width: 500px;
+}
+.Opener .LHS {
+    width: 500px;
+}
+.Body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* .Information {
+
+} */
+
+.Quote {
+    background: #E5E7EB;
+}  
+
+.Call-to-action {
+    background: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
